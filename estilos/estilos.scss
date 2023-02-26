@@ -1,0 +1,293 @@
+body{
+    background-image: url(../img/fondo/fondo.png);
+}
+
+h1{
+    font-family: gotham;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+h2{
+    font-family: gotham;
+    font-size: 24px;
+    font-weight: bolder;
+}
+p{
+    font-family: gotham;
+    font-size: 16px;
+    font-weight: medium;
+    text-align: left;
+}
+
+.navbar{
+    background-color:#f7bdb3;
+    border-radius: 0px 0px 20px 20px;
+    a{
+        color: black;
+        font-size: 20px;
+        font-family: gotham;
+        font-weight: medium;
+    }
+    .navbar-toggler i{
+        color: black;
+        font-size: 30px;
+    }
+    .nav-item :hover {
+        background-color: #df6552;
+        text-decoration: underline;
+    }
+}
+
+.imagenPerfil{
+    text-align: center;
+    img{
+        display: block;
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        margin-top: 40px;
+    }
+}
+
+.card__1{
+    height: 100%;
+    width: 100%;
+    background-color: #f7bdb356;
+    border: 3px solid #f7bdb3;
+    border-radius: 20px;
+    margin-top: 50px;
+    .card__1__imagen img{
+        height: 300px;
+        width: 305px;
+        padding: 20px;
+    }
+    .card__1__texto h2{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .card__1__texto p{
+        padding: 20px;
+    }
+    .card__1__texto ul li{
+        list-style: none;
+        display: inline-block;
+        font-family: Gotham;
+        font-weight: book;
+        font-size: 16px;
+        padding: 10px 0px 0px 50px;
+    }
+}
+
+.card__2{
+    height: 100%;
+    width: 100%;
+    background-color: #f7bdb356;
+    border: 3px solid #f7bdb3;
+    border-radius: 20px;
+    margin-top: 50px;
+    .card__2__imagen img{
+        display: flex;
+        height: 400px;
+        width: 305px;
+        padding: 20px
+    }
+    .card__2__texto h2{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .card__2__texto p{
+        padding: 20px;
+    }
+    .card__2__texto ul li{
+        list-style: none;
+        display: inline-block;
+        font-family: Gotham;
+        font-weight: book;
+        font-size: 16px;
+        padding: 10px 0px 0px 20px;
+    }
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #f7bdb3;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 50px;
+    p{
+        text-align: center;
+    }
+}
+
+.carrusel__1{
+    margin-top: 40px;
+    img{
+        height: 300px;
+        width: 320px;
+    }
+}
+
+.main__herramientas{
+    background-image: url(../img/iconos-herramientas/gif-herramientas.gif);
+    .titulo__h__texto{
+        text-align: center;
+        padding: 100px 0px 365px 50px;
+    }
+}
+
+.iconos{
+    display: block;
+    margin-left: 100px;
+    img{
+        margin-top: 40px;
+        height: 100%;
+        width: 50%;
+        filter: drop-shadow(50px 50px 50px rgb(0, 0, 0));
+    }
+}
+
+.galeria{
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,200px);
+    padding: 20px
+}
+.item{
+    background-size: cover;
+    background-position: center;
+    .item1{
+        background-image: url(../img/porfolio/faduarq.png);
+    }
+    .item2{
+        background-image: url(../img/porfolio/airescooter.png);
+    }
+    .item3{
+        background-image: url(../img/porfolio/mj.png);
+    }
+    .item4{
+        background-image: url(../img/porfolio/pixelweb.png);
+    }
+    .item5{
+        background-image: url(../img/porfolio/juegosdetronos.png);
+    }
+    .item6{
+        background-image: url(../img/porfolio/residence.png);
+    }
+    .item7{
+        background-image: url(../img/porfolio/lebris.png);
+    }
+    .item8{
+        background-image: url(../img/porfolio/hoyts.png);
+    }
+}
+
+
+
+.form-floating{
+    padding: 20px 0px 0px 40px;
+    font-family: gotham;
+    font-size: 16px;
+    font-weight: medium;
+}
+.formulario-completa{
+    padding: 10px 40px 0px 40px;
+}
+
+.form-control{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: #f7bdb356;
+    border: 1px solid #f7bdb3;
+    .boton-enviar{
+        padding: 40px 40px;
+    }
+    .bg-danger{
+        background-color: #f7bdb356;
+        border: 1px solid #f7bdb3;
+        width: 100%;
+        height: 40px;
+        border-radius: 10px
+    }
+    .bg-danger:hover{
+        background-color: #F99787;
+    }
+}
+
+.contacto{
+    display: flex;
+    padding: 20px 0px 0px 30px;
+    .contacto-texto{
+        padding: 0.05px;
+        list-style: none;
+        display: inline-block;
+        font-family: Gotham;
+        font-weight: book;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .card__1{
+        display: flex;
+        margin: 40px 0px 0px 40px;   
+        height: 100%;
+        width: 80%;
+        .card__1__imagen img{
+            height: 400px;
+            width: 305px;
+            padding: 20px;
+        }
+    }
+    .card__2{
+        display: flex;
+        float: right;  
+        margin: 40px 40px 40px 0px;   
+        height: 100%;
+        width: 80%;
+    }
+    .carrusel__1{
+        display: flex;
+        margin-left: 40px;
+        margin-top: 750px;
+        overflow: auto;
+        .carrusel__1 img{
+            height: 500px;
+            width: 520px;
+        }
+    }
+    .footer{
+        height: 100px;
+        width: 100%;
+        background-color: #f7bdb3;
+        border-radius: 20px 20px 0px 0px;
+        text-align: center;
+        padding-top: 40px;
+        margin-top: 470px;
+    }
+    .iconos{
+        display: block;
+        margin-left: 200px;
+        img{
+            height: 100%;
+            width: 20%;
+            filter: drop-shadow(50px 50px 50px rgb(0, 0, 0));
+            margin: 40px;
+        }
+    }
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4,300px);
+        .item:hover{
+            transform: scale(1.05);
+            border-radius: 20px;
+        }
+    }
+}
